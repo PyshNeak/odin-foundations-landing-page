@@ -1,0 +1,27 @@
+* {
+    font-family: "Roboto", Courier;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+}
+
+.header a {
+    text-decoration: none;
+    color: #F9FAF8;
+    font-size: 24px;
+    /* font: 48px #F9FAF8 900; */
+}
+
+.header ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+    color: #E5E7EB;
+    font-size: 18px;
+}
